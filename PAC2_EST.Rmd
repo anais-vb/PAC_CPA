@@ -22,14 +22,23 @@ En aquesta part de la pràctica haureu de pensar, preparar i redactar els següe
 
 ## Exercici 2: Obrir diferents tipus d’arxius i fonts de dades amb R
 
-### Importar dades: 
-Obriu el script a R, i a través del codi que haurem treballat a classe, obriu i incorporeu els fitxers que trobareu en el següent repositori: CSV, SPSS, Excel 
-
-### Exportar dades: 
-exporteu i guardeu els fitxers que trobareu en el següent repositori als formats CSV, SPSS, Excel i Rdata (format propi R)
-
 ### Descarregar una base de dades d’internet
-En aquest apartat aprendrem a descarregar fitxers directament des d'Internet a R. Ens limitarem a descarregar bases de dades des de la web. A més, existeixen tècniques més avançades de "web scrapping" que no treballarem en aquesta assignatura. 
+En aquest apartat descarregarem fitxers directament des d'Internet a R. Ens limitarem a descarregar bases de dades des de la web. A més, existeixen tècniques més avançades de "web scrapping" que no treballarem en aquesta assignatura. 
+
+Descarregueu la base de dades "Enquesta sobre Cosum d'oci i posició social" (Estudi realitzat a l'assignatura de Mètodes Quantitatius de Recerca Social de la titulació de Sociologia durant el curs 2010-11 de la UAB) que podeu trobar en aquesta [pàgina web](https://pagines.uab.cat/plopez/content/fuentes-de-datos-para-la-investigaci%C3%B3n-y-la-docencia).
+
+```{r}
+#Carreguem les dades del fitxer absentisme 
+#url <- "XXXX"
+#df <- read_spss(url)
+```
+
+### Importar i exporteu dades: 
+Obriu el script a R, i a través del codi que haurem treballat a classe, genereu a través d'importacions i exportacions els següents fitxers: 
+1. Importeu el fitxer COPS.sav a R en format csv i guardeu l'arxiu csv. 
+2. Importeu el fitxer a format xlsx i guarder l'arxius xlsx, creant una nova fulla.
+3. Importeu el fitxer a format spss, i guardeu de nou l'arxiu en format .sav
+
 
 ## Exercici 3: Escollir la vostra base de dades i obrir-la en un script
 A partir de la vostra pregunta de recerca i l’establiment de les hipòtesis, busqueu la base de dades a partir de la qual treballareu. En el mateix script: 
