@@ -1,0 +1,45 @@
+---
+title: "Pràctica 2"
+author: "Estadística aplicada a la Ciència Política"
+date: "Curs 2020/21"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# PRÀCTICA 2
+
+En aquesta segona pràctica individual abordarem algunes de les qüestions teòrico- pràctiques de les primeres tres sessions de l’assignatura. 
+Haureu de realitzar part de la pràctica per escrit (part 1, a través de moodle)  i part de la pràctica amb R (part 2 i 3, en un script que entregareu).
+
+## Exercici 1: Pregunta de recerca i hipòtesis d'investigació 
+En aquesta part de la pràctica haureu de pensar, preparar i redactar els següents elements que guiaran la resta de pràctiques de l’assignatura, i que s’incorporaran al projecte final de l’assignatura: 
+
+1. Pregunta de recerca 
+2. Establiment d’hipòtesis a treballar 
+
+## Exercici 2: Obrir diferents tipus d’arxius i fonts de dades amb R
+
+### Importar dades: 
+Obriu el script a R, i a través del codi que haurem treballat a classe, obriu i incorporeu els fitxers que trobareu en el següent repositori: CSV, SPSS, Excel 
+
+### Exportar dades: 
+exporteu i guardeu els fitxers que trobareu en el següent repositori als formats CSV, SPSS, Excel i Rdata (format propi R)
+
+### Descarregar una base de dades d’internet
+En aquest apartat aprendrem a descarregar fitxers directament des d'Internet a R. Ens limitarem a descarregar bases de dades des de la web. A més, existeixen tècniques més avançades de "web scrapping" que no treballarem en aquesta assignatura. 
+
+## Exercici 3: Escollir la vostra base de dades i obrir-la en un script
+A partir de la vostra pregunta de recerca i l’establiment de les hipòtesis, busqueu la base de dades a partir de la qual treballareu. En el mateix script: 
+Apunteu en mode d’anotació quina és la vostra proposta de base de dades que utilitzareu i la seva font. Anoteu perquè utilitzareu aquesta base de dades. 
+Importeu a R la base de dades amb la que treballareu 
+
+## RECURSOS ADDICIONALS: 
+- Apunts a classe i a la plana web de l’assignatura
+- Introducción. El diseño de la investigación (UOC)
+- Planteamiento cuantitativo del problema de investigación (Sampieri)
+- La formulación de hipótesis (Sampieri)
+
+
